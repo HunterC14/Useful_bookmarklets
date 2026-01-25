@@ -16,3 +16,8 @@ document.write("");
 /*
 javascript:Object.keys(window).forEach(e=>{if(e!=="location")window[e]=undefined});document.write("");
 */
+// change background color
+document.getElementsByTagName("body")[0].style.backgroundColor = prompt("Color:")
+/*
+javascript:document.getElementsByTagName("body")[0].style.backgroundColor=prompt("Color:")
+*/
